@@ -3,3 +3,28 @@ body {
   height: 100%;
   margin: 0;
 }
+
+:root {
+  --primary-color: #f4e4d7;
+  --secondary-color: #edd7c5;
+  --footer-background-color: #edd7c5cc;
+  --green: #39ac60;
+  --black: #1a1a1a;
+  --gray-dark: #666666;
+  --brand-secondary: #fb6d3a;
+}
+
+@keyframes grow {
+  100% {
+    width: 100%;
+  }
+}
+@keyframes border_anim {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
